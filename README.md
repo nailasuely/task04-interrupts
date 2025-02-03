@@ -26,7 +26,7 @@ LEDs RGB, e realizar manipulações interativas com botões, utilizando interrup
   - [Pré-requisitos](#pré-requisitos)
   - [Passos para Execução](#passos-para-execução)
 - [Testes Realizados](#testes-realizados)
-- [Vídeo Demonstração](#vídeo-demonstração)
+- [Vídeo Demonstração](#vídeo-de-demonstração)
 - [Autora](#autora)
 
 </details>
@@ -41,7 +41,7 @@ LEDs RGB, e realizar manipulações interativas com botões, utilizando interrup
 - Utilização do **SDK do Raspberry Pi Pico** e programação em **C**.
 - **Tratamento de debouncing** de botões via software.
 
-![-----------------------------------------------------](https://github.com/nailasuely/breakout-problem3/blob/main/assets/img/prancheta.png)
+![-----------------------------------------------------](https://github.com/nailasuely/task04-interrupts/blob/main/src/prancheta.png)
 
 
 ## Componentes Utilizados
@@ -51,7 +51,7 @@ LEDs RGB, e realizar manipulações interativas com botões, utilizando interrup
 - **LED RGB** (com pinos conectados às GPIOs 11, 12 e 13).
 - **Botões A e B** (conectados aos pinos GPIO 5 e GPIO 6).
   
-![-----------------------------------------------------](https://github.com/nailasuely/breakout-problem3/blob/main/assets/img/prancheta.png)
+![-----------------------------------------------------](https://github.com/nailasuely/task04-interrupts/blob/main/src/prancheta.png)
 
 
 ## Estrutura do Projeto
@@ -59,7 +59,7 @@ LEDs RGB, e realizar manipulações interativas com botões, utilizando interrup
 - **matriz.c**: Controla a matriz de LEDs, configurando botões e LEDs, e exibindo animações.
 - **features/matrix_led_control.c**: Contém padrões de animação e números formatados para exibição na matriz de LEDs.
   
-![-----------------------------------------------------](https://github.com/nailasuely/breakout-problem3/blob/main/assets/img/prancheta.png)
+![-----------------------------------------------------](https://github.com/nailasuely/task04-interrupts/blob/main/src/prancheta.png)
 
 
 ## Funcionalidades
@@ -72,7 +72,7 @@ LEDs RGB, e realizar manipulações interativas com botões, utilizando interrup
   - A matriz de LEDs WS2812 é usada para criar efeitos visuais que representam números de 0 a 9.
   - Debouncing via software para garantir que o botão seja lido corretamente.
 
-![-----------------------------------------------------](https://github.com/nailasuely/breakout-problem3/blob/main/assets/img/prancheta.png)
+![-----------------------------------------------------](https://github.com/nailasuely/task04-interrupts/blob/main/src/prancheta.png)
 
 
 ## Como Executar
@@ -98,16 +98,11 @@ LEDs RGB, e realizar manipulações interativas com botões, utilizando interrup
    - **Botão B**: Pressione para decrementar o número exibido na matriz.
    - O LED vermelho piscará a cada 100ms.
      
-![-----------------------------------------------------](https://github.com/nailasuely/breakout-problem3/blob/main/assets/img/prancheta.png)
-
-
-## Testes Realizados
-
-![-----------------------------------------------------](https://github.com/nailasuely/breakout-problem3/blob/main/assets/img/prancheta.png)
-
+![-----------------------------------------------------](https://github.com/nailasuely/task04-interrupts/blob/main/src/prancheta.png)
    
-## Vídeo Demonstração
+## Vídeo de Demonstração
 [Link](https://youtu.be/5P4eKq4PS4c)
+
 ## Autora
 
 <table>
