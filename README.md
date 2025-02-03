@@ -66,8 +66,8 @@ LEDs RGB, e realizar manipulações interativas com botões, utilizando interrup
 
 - **Piscar LED Vermelho**: O LED vermelho (RGB) pisca 5 vezes por segundo.
 - **Incremento e Decremento com Botões**: 
-  - O **Botão A** (GPIO 5) incrementa o número exibido na matriz de LEDs (de 0 a 9).
-  - O **Botão B** (GPIO 6) decrementa o número exibido na matriz de LEDs (de 0 a 9).
+  - O **Botão A** (GPIO 5) decrementa o número exibido na matriz de LEDs (de 0 a 9).
+  - O **Botão B** (GPIO 6) incrementa o número exibido na matriz de LEDs (de 0 a 9).
 - **Exibição de Números**: 
   - A matriz de LEDs WS2812 é usada para criar efeitos visuais que representam números de 0 a 9.
   - Debouncing via software para garantir que o botão seja lido corretamente.
