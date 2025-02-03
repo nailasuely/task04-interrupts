@@ -25,7 +25,6 @@ LEDs RGB, e realizar manipulações interativas com botões, utilizando interrup
 - [Como Executar](#como-executar)
   - [Pré-requisitos](#pré-requisitos)
   - [Passos para Execução](#passos-para-execução)
-- [Testes Realizados](#testes-realizados)
 - [Vídeo Demonstração](#vídeo-de-demonstração)
 - [Autora](#autora)
 
@@ -102,6 +101,8 @@ LEDs RGB, e realizar manipulações interativas com botões, utilizando interrup
    
 ## Vídeo de Demonstração
 [Link](https://youtu.be/5P4eKq4PS4c)
+
+![-----------------------------------------------------](https://github.com/nailasuely/task04-interrupts/blob/main/src/prancheta.png)
 
 ## Autora
 
